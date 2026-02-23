@@ -1,18 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>SEO Manager | Professional Website</title>
+  <meta charset="UTF-8">
+  <title>Study Planner | College Dashboard</title>
 </head>
 <body>
-<h1>Professional SEO Manager</h1>
-<img src="SEO IMG.jpg" alt="SEO Manager">
-</body <h1>Study Planner Website</h1>
+  <header>
+    <h1>Study Planner</h1>
+    <p>A simple planner to organize your college study schedule.</p>
 
-<nav>
-  <a href="index.html">Home</a> |
-  <a href="planner.html">Planner</a> |
-  <a href="subjects.html">Subjects</a> |
-  <a href="about.html">About</a> |
-  <a href="contact.html">Contact</a>
-</nav>>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="planner.html">Planner</a> |
+      <a href="subjects.html">Subjects</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Weekly Overview</h2>
+      <p>Use this table to plan your week and keep track of your classes and self‑study time.</p>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Morning</th>
+            <th>Afternoon</th>
+            <th>Evening</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Class / Lecture</td>
+            <td>Assignments</td>
+            <td>Revision</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>Class / Lecture</td>
+            <td>Library</td>
+            <td>Practice Problems</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Class / Lecture</td>
+            <td>Group Study</td>
+            <td>Revision</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Class / Lecture</td>
+            <td>Project Work</td>
+            <td>Reading</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Class / Lecture</td>
+            <td>Assignments</td>
+            <td>Revision</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Backlog Topics</td>
+            <td>Lab Work</td>
+            <td>Exam Preparation</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Rest</td>
+            <td>Light Review</td>
+            <td>Plan Next Week</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Today's Study Plan</h2>
+      <p>Write down what you want to complete today.</p>
+      <form>
+        <fieldset>
+          <legend>Tasks for Today</legend>
+
+          <label for="today-date">Date:</label>
+          <input type="date" id="today-date" name="today-date">
+
+          <h3>Priority Tasks</h3>
+          <p>List the most important topics or assignments.</p>
+          <ol>
+            <li>
+              <label for="task1">Task 1:</label>
+              <input type="text" id="task1" name="task1" placeholder="e.g., Complete math assignment">
+            </li>
+            <li>
+              <label for="task2">Task 2:</label>
+              <input type="text" id="task2" name="task2" placeholder="e.g., Revise chemistry notes">
+            </li>
+            <li>
+              <label for="task3">Task 3:</label>
+              <input type="text" id="task3" name="task3" placeholder="e.g., Read one chapter of CS book">
+            </li>
+          </ol>
+
+          <h3>Estimated Study Time</h3>
+          <p>Plan your total study time for the day.</p>
+          <label for="hours">Planned hours:</label>
+          <input type="number" id="hours" name="hours" min="0" max="24"> hours
+        </fieldset>
+      </form>
+    </section>
+
+    <section>
+      <h2>Subject Tracker</h2>
+      <p>Use this list to see all your subjects and their current status.</p>
+      <ul>
+        <li><strong>Subject 1:</strong> Core subject &mdash; focus on lectures and weekly assignments.</li>
+        <li><strong>Subject 2:</strong> Lab subject &mdash; keep track of experiments and reports.</li>
+        <li><strong>Subject 3:</strong> Elective &mdash; schedule regular reading and note making.</li>
+        <li><strong>Subject 4:</strong> Project &mdash; divide work into smaller weekly goals.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Study Goals</h2>
+      <p>Define your short‑term and long‑term academic goals.</p>
+      <h3>Short‑Term Goals (This Week)</h3>
+      <ul>
+        <li>Finish all pending assignments.</li>
+        <li>Revise class notes for upcoming quiz.</li>
+        <li>Organize notes by subject.</li>
+      </ul>
+
+      <h3>Long‑Term Goals (This Semester)</h3>
+      <ul>
+        <li>Maintain a consistent daily study routine.</li>
+        <li>Score your target CGPA.</li>
+        <li>Build a strong understanding of core subjects.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Study Planner | College Project</p>
+  </footer>
+</body>
 </html>
